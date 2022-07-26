@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* nav */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+nav > h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 5%;
+}
+
+nav > ul > li {
+    padding-right: 12%;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* main */
+
+main > div {
+    width: 40%;
+    padding: 10% 0 0 2%;
+}
+
+main > div > h2 {
+    font-size: 2.5em;
+}
+
+main > div > p {
+    font-size: 1.5em;
+    margin-top: 2%;
+}
+
+main > div > button {
+    padding: 3% 5%;
+    margin-top: 5%;
+    border: none;
+    background-color: forestgreen;
+    border-radius: 15px;
+    font-size: 1em;
+    font-weight: bold;
+}

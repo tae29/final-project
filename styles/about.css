@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+nav > h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 5%;
+}
+
+nav > ul > li {
+    padding-right: 12%;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    margin: 8% 30%;
+}
+
+h2 {
+    margin-bottom: 2%;
+}
